@@ -1,0 +1,35 @@
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.content{
+    display: flex;
+    gap: 40px;
+}
+
+.checkout__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.vector__image{
+    cursor: pointer;
+}
+.navigation{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    font-size: 32px;
+    font-weight: 800;
+}
+.check__nav{
+    display: flex;
+    margin-top: 18px;
+    color: #8A8A8A;
+    cursor: pointer;
+    gap: 50px;
+}

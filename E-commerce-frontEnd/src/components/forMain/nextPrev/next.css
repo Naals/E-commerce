@@ -1,0 +1,15 @@
+.nextButton button{
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #A3A3A3;
+}
+.nextButton{
+    text-align: center;
+}
+#prev{
+    top: 15px;
+    transform: rotate(180deg);
+}

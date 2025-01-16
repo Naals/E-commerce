@@ -1,0 +1,124 @@
+.thisweek__images{
+    max-width: 1300px;
+}
+.thisweek_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: max-content;
+}
+.productImage{
+    width: 305px;
+    height: 313px;
+}
+.image__text{
+    display: flex;
+    justify-content: space-between;
+}
+.image__item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Images Component */
+.thisweek__images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between items */
+    justify-content: space-between;
+}
+
+.thisweek_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image__item {
+    flex: 1 1 calc(33.333% - 20px); /* Three items per row */
+    max-width: 366px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image__item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.productImage {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: cover;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.image__title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productWeek {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+}
+
+#priceProduct {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Hover effects */
+.image__item:hover .productWeek {
+    color: #555; /* Change text color on hover */
+}
+
+.image__item:hover #priceProduct {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .thisweek_wrapper {
+        flex-direction: column;
+    }
+
+    .image__item {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .productWeek {
+        font-size: 14px;
+    }
+
+    #priceProduct {
+        font-size: 12px;
+    }
+}

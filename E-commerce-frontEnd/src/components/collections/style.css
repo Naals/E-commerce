@@ -1,0 +1,7 @@
+.thisweek_wrapper{
+    flex: 0 0 calc(10%);
+}
+.thisweek__images{
+    display: flex;
+    flex-wrap: wrap;
+}

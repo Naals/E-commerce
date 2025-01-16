@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-width: 406px;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 50px;
+}
+.see{
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 66%;
+    display: flex;
+    flex-direction: row;
+}
+.quantity{
+
+}
+.title{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.title p{
+    font-weight: 500;
+}
+.items{
+    max-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.total{
+    margin-top: 20px;
+}

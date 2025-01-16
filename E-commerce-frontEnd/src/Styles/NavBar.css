@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root {
+    background-image: url('../assets/noisyBackground.png');
+    font-family: 'Beatrice Deck Trial', sans-serif;
+}
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.logo{
+    position: absolute;
+    right: 50%;
+}
+
+li{
+    list-style: none;
+}
+dl, ol, ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+.header-left{
+    display: flex;
+    gap: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 23px;
+
+}
+.nav-item{
+    font-size: 16px;
+}
+.header-right{
+    display: flex;
+    gap: 32px;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+.icon-heart {
+    fill: currentColor; /* Matches the button text color */
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.button:hover .icon-heart {
+    transform: rotate(0deg);
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Dim background with transparency */
+    z-index: 1000;
+}
+
+/* Popup Content */
+.popup-content {
+    position: relative;
+    padding: 20px;
+    z-index: 1001;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Close Button */
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}

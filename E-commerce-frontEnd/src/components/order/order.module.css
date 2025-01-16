@@ -1,0 +1,152 @@
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.title{
+    font-family: 'Beatrice Deck Trial', sans-serif;
+    display: flex;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0px;
+}
+.title p{
+    cursor: pointer;
+}
+.orderLeft{
+    max-width: 730px;
+    width: 100%;
+}
+.orderProduct{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 33px;
+    margin-top: 23px;
+}
+.orderItem{
+    flex: 0 0 calc(20% - 50px);
+    display: flex;
+    gap: 16px;
+}
+
+.orderItem > img{
+    width: 265px;
+    height: 314px;
+}
+
+.manage{
+    position: relative;
+    max-height: 250px;
+    margin-top: 5px;
+}
+.buttons{
+    position: absolute;
+    bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.btn{
+    height: 25px;
+    width: 25px;
+    font-size: 12px;
+    border: 1px solid #8A8A8A;
+}
+.exit{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+.size{
+    position: absolute;
+    bottom: 127px;
+    left: 1px;
+    font-weight: 500;
+}
+.change{
+    position: absolute;
+    bottom: 0;
+    left: 3px;
+    cursor: pointer;
+}
+
+
+.orderRight{
+    max-width: 306px;
+    height: 347px;
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    margin: 30px auto;
+}
+.rightWrapper{
+    max-width: 230px;
+    width: 100%;
+    margin: 15px auto;
+}
+.orderPrice{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 18px;
+}
+
+.orderPrice div{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.orderTotal{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+.orderAgree{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+.orderAgree input{
+    width: 18px;
+    height: 18px;
+    transition: transform 0.7s ease, background-color 0.3s ease;
+}
+.orderAgree input:hover{
+    transform: scale(1.05);
+}
+.rightTitle{
+    margin-bottom: 22px;
+}
+.shopping{
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.favourite{
+    color: #8A8A8A;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.shopping:hover{
+    transform: scale(1.05);
+}
+.favourite:hover{
+    transform: scale(1.05);
+}
+.sizeSelector {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25px;
+}
+
