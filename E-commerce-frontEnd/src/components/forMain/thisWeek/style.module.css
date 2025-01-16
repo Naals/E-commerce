@@ -1,0 +1,67 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Thisweek Component Styling */
+.thisweek {
+    margin-top: 150px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.images{
+    margin-bottom: 10px;
+}
+.thisweek__title {
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    line-height: 1;
+    position: relative;
+    font-family: 'Beatrice Deck Trial', sans-serif;
+}
+
+.thisweek__title .new {
+    font-size: 48px;
+    color: #333;
+}
+
+.thisweek__title .see {
+    position: absolute;
+    font-size: 14px;
+    color: #5E5E5E;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Beatrice Deck Trial', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.thisweek__title .see:hover {
+    color: #000; /* Change color on hover */
+    text-decoration: underline;
+}
+
+.thisweek__nextButton {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .thisweek__title .new {
+        font-size: 36px;
+    }
+
+    .thisweek__title .see {
+        font-size: 12px;
+    }
+}

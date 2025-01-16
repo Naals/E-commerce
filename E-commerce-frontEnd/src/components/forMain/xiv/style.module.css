@@ -1,0 +1,90 @@
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    margin-top: 110px;
+    font-family: 'Beatrice Deck Trial', sans-serif;
+}
+.wrapper .collections{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+.choose ul{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    color: #8A8A8A;
+}
+li{
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+li:hover{
+    transform: scale(1.05);
+    color: black;
+}
+.sort{
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.sort:hover{
+    transform: scale(1.05);
+}
+.all{
+    color: black;
+}
+
+.moreImage{
+    margin-top: 40px;
+}
+
+.more{
+    text-align: center;
+    color: #8A8A8A;
+    cursor: pointer;
+    max-width: 50px;
+    margin: auto;
+    margin-top: 25px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.more:hover{
+    transform: scale(1.05);
+}
+.choose ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.choose ul li {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    padding: 5px 10px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.choose ul li:hover {
+    color: #000; /* Highlight on hover */
+}
+
+.choose ul li.active {
+    color: #000; /* Make active category bold */
+    font-weight: bold;
+    text-decoration: underline; /* Add underline to active category */
+    text-decoration-thickness: 2px; /* Optional: Adjust underline thickness */
+    text-decoration-color: #000; /* Optional: Underline color */
+}

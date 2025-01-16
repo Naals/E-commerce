@@ -1,0 +1,20 @@
+.orderPrice{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 18px;
+}
+
+.orderPrice div{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.orderTotal{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+
+}

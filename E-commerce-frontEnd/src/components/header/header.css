@@ -1,0 +1,121 @@
+.ls-2 {
+    letter-spacing: 2px;
+}
+.header-nav{
+    margin-bottom: 10px;
+}
+.btn{
+    border-radius: 50%;
+}
+
+.logo{
+    position: absolute;
+    right: 50%;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+.header-left{
+    display: flex;
+    gap: 32px;
+}
+.button__logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+.nav-link:hover{
+    color: red;
+}
+.header-right{
+    display: flex;
+    gap: 32px;
+}
+.nav-item p{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.nav-item p:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+.button-cart{
+    top: 0;
+    width: 126px;
+
+}
+.button-cart p{
+    position: absolute;
+    left: 28px;
+    top: 14px;
+    font-family: 'Beatrice Deck Trial', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.button-profile svg{
+    position: absolute;
+    top: 15px;
+    right: 16.5px;
+}
+.button-heart{
+    width: 50px;
+}
+.button-heart svg{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 17px;
+    left: 18px;
+}
+.button-profile{
+    width: 50px;
+}
+.button{
+    position: relative;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.button:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+.icon-heart {
+    fill: currentColor; /* Matches the button text color */
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.button:hover .icon-heart {
+    transform: rotate(0deg);
+}

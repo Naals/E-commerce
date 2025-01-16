@@ -1,0 +1,24 @@
+.thisweek{
+    margin-top: 150px;
+}
+.thisweek__title{
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    line-height: 1;
+    position: relative;
+}
+.thisweek__title .see{
+    position: absolute;
+    font-size: 14px;
+    color: #5E5E5E;
+    bottom: 0;
+    right: 0;
+    font-family: 'Beatrice Deck Trial', sans-serif;
+}
+.thisweek__title .new{
+    font-size: 48px;
+}
+.thisweek__nextButton{
+    text-align: center;
+}

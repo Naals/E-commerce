@@ -1,0 +1,117 @@
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    margin-top: 90px;
+}
+.filter{
+    max-width: 266px;
+    width: 100%;
+}
+.filter__text{
+    margin-top: 90px;
+     margin-bottom: 20px;
+     font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-left: 10px;
+ }
+.option > p{
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    margin: 0;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.option img{
+    cursor: pointer;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.title{
+    font-size: 12px;
+    font-weight: 500;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.search__bar::placeholder{
+    font-family: 'Beatrice Deck Trial', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.search__bar{
+    margin-top: 15px;
+    padding: 0 30px;
+    padding-left: 40px;
+    font-size: 19px;
+    font-weight: 300;
+    background-color: #D9D9D9;
+    width: 367px;
+    height: 50px;
+    opacity: 66%;
+    text-align: right;
+}
+.search{
+    position: relative;
+    float: left;
+    margin-top: -35px;
+}
+.search__logo{
+    position: absolute;
+    left: 15px;
+    top: 31px;
+}
+
+.filter__choose {
+    margin-left: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter__choose label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 8px;
+}
+
+.filter__choose input{
+    width: 22px;
+    height: 22px;
+}
+
+.filter__choose p {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.option img {
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.option img[alt="open"] {
+    transform: rotate(180deg);
+}
